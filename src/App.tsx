@@ -16,7 +16,7 @@ function App() {
 
   React.useEffect(() => {
     let Storyblok = new StoryblokClient({
-      accessToken: 'C7FcdrBq68Kll8B0p2qTAwtt'
+      accessToken: process.env.REACT_APP_STORYBLOCK_KEY
     });
 
     Storyblok
