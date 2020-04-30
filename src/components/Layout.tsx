@@ -28,7 +28,6 @@ const useStyles = makeStyles({
         background: (props: {backgroundImg: string}) => `url(${props.backgroundImg}) no-repeat center center fixed`,
         height: '100vh',
         width: '100vw',
-        clipPath: 'polygon(0% 0%, 100% 0%, 0% 100%)',
         position: 'absolute',
         top: 0,
         left: 0,
